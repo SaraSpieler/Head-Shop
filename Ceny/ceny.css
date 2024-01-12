@@ -82,6 +82,7 @@ header button{
   display: flex;
   flex-wrap:wrap;
   justify-content: space-between;
+  margin-top: 80px;
 }
 .cards .card .card-body p{
   margin-top: -10px;
@@ -117,7 +118,7 @@ header button{
 .button1 {border-radius: 2px;}
 .button2 {border-radius: 4px;}
 .button3 {border-radius: 8px;}
-.button4 {border-radius: 12px; margin-left: 1800px; width:150px;}
+.button4 {border-radius: 12px; width:150px; margin-left: 80%;}
 .button5 {border-radius: 50%;}
 /*fin bouton*/
 
