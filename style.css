@@ -72,8 +72,8 @@ header button{
   flex-wrap:wrap;
 }
 .cards .card{
-    margin-right: 100px;
-    margin-left: 100px;
+    margin-right: 90px;
+    margin-left: 90px;
     cursor:pointer;
 }
 .cards .card img{
