@@ -101,6 +101,27 @@ header button{
 }
 /* Fin de la section principale */
 
+/*bouton*/
+.button {
+  background-color: #000000;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+
+}
+
+.button1 {border-radius: 2px;}
+.button2 {border-radius: 4px;}
+.button3 {border-radius: 8px;}
+.button4 {border-radius: 12px; margin-left: 1800px; width:150px;}
+.button5 {border-radius: 50%;}
+/*fin bouton*/
+
+
 /*Couleur de page  */
 body { 
   background: rgb(230, 124, 144);
