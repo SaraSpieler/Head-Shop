@@ -146,13 +146,12 @@ body {
 /* Pied de page */
 footer {
   margin-top: 200px;
-  padding: 30px;
+  padding: 20px;
   color: #ffffff;
   display: flex;
   flex-wrap:wrap;
   position: sticky;
   justify-content: space-between;
-  position: sticky;
   bottom:0;
 }
 footer .social-media{
