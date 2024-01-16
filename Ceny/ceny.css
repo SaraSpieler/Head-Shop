@@ -62,7 +62,7 @@ header button{
   margin: 20px;
   margin-top: 80px;
   display:flex;
-  flex-direction:row;
+  flex-direction:column;
   align-items:center;
 }
 /* Toutes les cartes */
@@ -73,11 +73,7 @@ header button{
   justify-content: space-around ;
 }
 .cards .card{
-  margin-right: 20px;
   cursor:default;
-}
-.cards .card-video{
-  margin-left:400px;
 }
 
 /* Fin de toutes les cartes */
@@ -149,6 +145,7 @@ body {
 
 /* Pied de page */
 footer {
+  margin-top: 200px;
   padding: 30px;
   color: #ffffff;
   display: flex;
