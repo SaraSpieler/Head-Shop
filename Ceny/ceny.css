@@ -95,6 +95,28 @@ header button{
   position: sticky;
 }
 
+.presentation {
+  background-color: #f7cae8;
+  padding: 50px
+}
+
+.presentation .titre{
+  border: 5px;
+  color: rgb(0, 0, 0);
+  padding: 8px;   /*distance texte avec bordure*/
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin : auto;
+  margin-top : 20px;
+  align-items: start;
+  justify-content: center;
+  font-size: 25px;
+  text-transform: uppercase;
+  position: sticky;
+
+}
+
 
 
 
@@ -114,7 +136,7 @@ header button{
 /*bouton*/
 .button {
   cursor: pointer;
-  background-color: #000000;
+  background-color: #c913ba;
   border: none;
   color: white;
   padding: 8px;   /*distance texte avec bordure*/
