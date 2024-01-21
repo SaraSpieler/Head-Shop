@@ -23,13 +23,9 @@ nav{
     justify-content: flex-end;
 }
 
-.shop{
+.onglets{
     display:flex;
     flex-direction: row;
-}
-
-.shop span{
-  display: inline;
 }
 
 body{
@@ -41,12 +37,12 @@ body{
 h1{
     font-family: 'Oswald';font-size: 40px;
     text-transform: uppercase;
-    color:rgb(225, 0, 255);
+    color:#e351e7;
     margin-bottom: -10px;
 }
 
 h2{
-    color:rgb(225, 0, 255);
+    color:#e351e7;
 }
 
 .bloc_principal{
@@ -63,11 +59,12 @@ h2{
 .images_defilement{
     /* box-sizing: border-box; */
     margin-top:150px;
-    margin-left:200px;
-    margin-bottom: 200px;
+    /* margin-left:200px; */
+    margin-bottom: 150px;
     display:flex;
     flex-direction: column;
     justify-content: space-around;
+    align-items: center;
     /* overflow:scroll; */
     /* background-color: blueviolet; */
 }
@@ -76,10 +73,10 @@ h2{
     text-align: center;
     align-items: center;
     position: sticky;
-    top:280px;
-    margin-top:-100px;
-    margin-right:200px;
-    margin-left: 10px;
+    top:250px;
+    /* margin-top:-100px; */
+    /* margin-right:200px; */
+    /* margin-left: 10px; */
     display:flex;
     flex-direction:column;
     width: 500px;
@@ -88,7 +85,7 @@ h2{
 
 button{
     margin-bottom:20px;
-    background-color:rgb(225, 0, 255);
+    background-color:#e351e7;
     height: 40px;
     width: 200px;
     border-radius: 30px;
@@ -98,6 +95,14 @@ button{
     font-weight: bold;
     font-family: 'Oswald';
     cursor:pointer;
+}
+
+.boutton_nav{
+  text-align: center;
+  align-items: center;
+  position: sticky;
+  top:50%;
+  font-size:30px;
 }
 
 footer{
@@ -123,7 +128,10 @@ footer{
     justify-content: flex-end;
 }
 
-
+a{
+  color:#000000;
+  text-decoration: none;
+}
 
 
 
@@ -149,7 +157,6 @@ footer{
     max-height: 0;
     overflow: hidden;
     transition: all 0.35s;
-    overflow: auto;
   }
   .tab input:checked ~ .tab__content {
     max-height: 10rem;
@@ -207,82 +214,4 @@ footer{
       transform: rotate(90deg) translate(-.25rem);
     }
   }
-
-
-.cartTab{
-    width: 400px;
-    background-color: rgb(225, 0, 255);
-    color:#fffaed;
-    position: fixed;
-    inset: 10 10 10 auto;
-    display: grid;
-    grid-template-rows: 80px 1fr 80px;
-
-  }
-
-.cartTab h1 {
-  color: #fffaed;
-  padding: 20px;
-  margin: 0;
-  font-weight: 300;
-}
-
-.cartTab .btn {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-}
-
-.cartTab .btn button{
-  background-color:#fffaed;
-  border:none;
-  font-family: 'Oswald';
-  font-weight: 500px;
-  cursor: pointer;
-}
-.checkOut{
-  grid-column: 2;
-  grid-row: 0;
-}
-
-.cartTab .listCart .item img{
-  width: 200%;
-}
-
-.cartTab .listCart .item{
-  display: grid;
-  grid-template-columns: 70px 150px 50px 1fr;
-  gap: 10px;
-  text-align: center;
-  align-items: center;
-}
-
-.listCart .quantity span{
-  display: inline-block;
-  width: 23px;
-  height: 23px;
-  background-color: #fffaed;
-  color: rgb(225, 0, 255);
-  border-radius: 50%;
-  cursor: pointer;
-}
-.listCart .quantity span:nth-child(2){
-  background-color: transparent;
-  color:#fffaed;
-}
-
-.listCart{
-  overflow:auto;
-}
-
-.cartTab{
-  right: -400px;
-  transition: 0.10s;
-}
-
-body.activeTabcart .cartTab{
-  right: 100;
-}
-
-body.activeTabCart .bloc_principal{
-  transform: translate(-250px);
-}
+  
